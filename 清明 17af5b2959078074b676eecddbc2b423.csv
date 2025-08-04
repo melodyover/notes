@@ -1,0 +1,9 @@
+﻿type,title,summary,status,category,tags,slug,date,password,icon
+Config,配置中心,在此文档直接添加配置文件，它的优先级最高，将覆盖环境变量和blog.config.js配置,Published,,,,2021/07/02,,
+Page,关于,可用链接/about访问，不会在菜单栏显示,Invisible,,,#,2022/05/18,,
+Menu,首页,跳转到首页/ 的菜单,Invisible,,,/,2023/03/23,,fas fa-home
+Menu,搜索,跳转到’/search’搜索页的菜单,Invisible,,,#,2021/07/02,,fas fa-search
+Menu,友情链接,跳转到/links页面的菜单,Invisible,,,#,2023/03/23,,fas fa-link
+Menu,优惠流量卡,,Published,,,https://haokawx.lot-ml.com/Product/Index/132005,2025/01/16,,fa-solid fa-sim-card
+Menu,站点工具,,Published,,,,2025/01/16,,fa-solid fa-screwdriver-wrench
+SubMenu,AI助手,/,Published,,,https://ai.rainc.de,2025/01/16,,fa-brands fa-airbnb

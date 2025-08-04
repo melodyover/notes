@@ -1,0 +1,60 @@
+﻿启用,配置名,配置值,备注,创建日期
+Yes,INLINE_CONFIG,"{
+""LINK"":""https://rainc.de/"",
+""THEME"":""hexo"",
+""AUTHOR"":""清明"",
+""BIO"":""风间细雨流连"",
+""KEYWORDS"":""风间细雨流连,清明"",
+""GREETING_WORDS"":""流年虚度 大梦一场空"",
+""STARRY_SKY"":true,
+""THEME_SWITCH"":false,
+""WIDGET_PET_SWITCH_THEME"":false
+}","JSON格式注意要用英文半角双引号 """"。
+若无双引号或用中文双引号 “” 会错误 
+多行配置，用于批量导入json格式的配置。V4.4.3 后支持",2025年1月13日 19:19
+Yes,BLOG_FAVICON,https://1cbbc65.webp.li/1.ico,,2025年4月3日 22:17
+Yes,WIDGET_PET,false,,2025年6月2日 18:13
+Yes,ENABLE_RSS,false,,2025年6月2日 18:13
+Yes,"APPEARANCE""",dark,,2025年6月2日 18:15
+No,POST_URL_PREFIX_MAPPING_CATEGORY,"{
+""知行合一"":""learning"",
+""技术分享"":""technology"",
+""心情随笔"":""essay""
+}","在使用%category% 路径前缀时: 将url中的分类名映射成英文，效果如下：
+【使用前】
+xx.com/知行合一/slug
+【使用后】
+xx.com/learning/slug",2025年1月13日 19:19
+Yes,GLOBAL_JS,console.log('test');,4.2.0版本开始支持：在代码里写JS很麻烦，干脆在Notion里写；这里的JS将直接在网站中运行注入。,2025年1月13日 19:19
+Yes,CUSTOM_MENU,true,二级菜单 ，在4.0的版本后默认开启,2025年1月13日 19:19
+Yes,CUSTOM_RIGHT_CLICK_CONTEXT_MENU,true,是否用自定义菜单覆盖浏览器右键菜单,2025年1月13日 19:19
+Yes,LANG,zh-CN,"网站默认语言 zh-CN,en-US 等",2025年1月13日 19:19
+No,GLOBAL_CSS,".fas fa-rss{
+display:none;
+}
+[id^=""theme-""] {
+  font-family: LXGW WenKai;
+}","4.2.0版本开始支持：在代码里写CSS很麻烦，干脆在Notion里写；
+
+这里的css将背景换成了一张图片。
+编写CSS时请注意使用英文半角空格，而非中文全角空格.
+
+底部表示将所有主题的字体更改为落霞文楷，自定义字体旧版本需要改动blog.config.js ，之后的新版本中，建议直接在这里编辑font-family的css样式。",2025年1月13日 19:19
+No,POST_URL_PREFIX,%category%,,2025年1月13日 19:19
+No,FONT_STYLE,font-serif font-light,"字体前者控制非衬线，后者控制粗细，留空是默认粗细
+[font-sans,font-serif] , [font-light,font-bold]",2025年1月13日 19:19
+No,CAN_COPY,true,"是否允许用户复制网页文字 true 是 , false 否",2025年1月13日 19:19
+No,SINCE,2023,网站发布年份,2025年1月13日 19:19
+No,CONTACT_WHATSAPP,https://www.whatsapp.com/,whatsapp联系方式,2025年1月13日 19:19
+No,CONTACT_EMAIL,1111@222.com,联系邮箱,2025年1月13日 19:19
+No,THEME_SWITCH,true,是否显示切换主题按钮,2025年1月13日 19:19
+No,POST_SHARE_BAR_ENABLE,true,是否文章分享功能,2025年1月13日 19:19
+No,PREVIEW_CATEGORY_COUNT,2,首页预览的分类数量,2025年1月13日 19:19
+No,PREVIEW_TAG_COUNT,5,首页预览的标签数量,2025年1月13日 19:19
+No,FONT_URL," [
+""https:notion://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css"",
+""https:notion://fonts.googleapis.com/css?family=Bitter&display=swap"",
+""https:notion://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap"",
+""https:notion://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap""
+]",WEB_FONT 字体，在4.4.4版本中支持在NOTION_CONFIG设置。,2025年1月13日 19:19
+No,HOME_BANNER_IMAGE,https://source.unsplash.com/random,封面大图URL,2025年1月13日 19:19
